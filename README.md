@@ -1,54 +1,49 @@
-# 📒 Projeto Agenda
+# 📒 Contact Agenda Project
 
-Seja bem-vindo(a) ao repositório da **Agenda de Contatos**!  
-Este projeto foi desenvolvido com carinho por um estudante de Engenharia de Software 💻, com o objetivo de aplicar na prática os conhecimentos de Node.js, Express e MongoDB.
+## 🌟 Overview
 
----
+Imagine a simple, yet functional digital agenda where you can:
+- 📥 Add contacts
+- 🔍 View all contacts
+- ✏️ Edit contact details
+- ❌ Delete a contact
+- 🔐 Create an account and log in
 
-## 🌟 Visão Geral
-
-Imagine uma agenda digital simples, mas funcional, onde você pode:
-- 📥 Cadastrar contatos
-- 🔍 Visualizar todos os contatos
-- ✏️ Editar informações
-- ❌ Excluir um contato
-- 🔐 Criar uma conta e realizar login
-
-Tudo isso com um toque de segurança, utilizando CSRF tokens e hashes de senha com bcrypt.
+All of this with a touch of security: CSRF protection and password hashing using bcrypt.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
-- **Node.js** & **Express** – Backend rápido e simples
-- **MongoDB** – Armazenamento dos contatos
-- **Mongoose** – Modelagem dos dados
-- **EJS** – Templates dinâmicos para renderizar as páginas
-- **Bootstrap** – Interface amigável e responsiva
-- **bcryptjs** – Segurança das senhas
-- **express-session** & **connect-mongo** – Gerenciamento de sessões
-- **express-flash** – Mensagens de sucesso e erro para o usuário
-- **csurf** – Proteção contra ataques CSRF
-
----
-
-## 👤 Funcionalidades
-
-### 🧾 Autenticação
-- Criação de usuário com validação
-- Login com senha criptografada
-- Sessões persistentes por usuário logado
-
-### 📇 Contatos
-- Formulário para criar um novo contato
-- Listagem completa de todos os contatos
-- Edição e exclusão de contatos
-- Validações importantes: nome obrigatório, email válido, telefone/email requeridos
+- **Node.js** & **Express** – Backend development
+- **MongoDB** – Database for storing contacts
+- **Mongoose** – Schema and model structure
+- **EJS** – Templating for rendering HTML
+- **Bootstrap** – Responsive, clean design
+- **bcryptjs** – Password security
+- **express-session** & **connect-mongo** – Session handling
+- **express-flash** – Feedback messages for users
+- **csurf** – CSRF protection
 
 ---
 
-## 📂 Como rodar o projeto localmente
+## 👤 Features
 
-1. Clone o repositório:
+### 🧾 Authentication
+- Account creation with validation
+- Login with encrypted passwords
+- Persistent user sessions
+
+### 📇 Contacts
+- Form to create a new contact
+- Full contact list
+- Edit and delete contacts
+- Key validations: name required, valid email, at least one way to reach out (email or phone)
+
+---
+
+## 📂 How to Run the Project Locally
+
+1. Clone this repository:
    ```bash
-   git clone https://github.com/seu-usuario/projeto-agenda.git
+   git clone https://github.com/your-username/contact-agenda.git
